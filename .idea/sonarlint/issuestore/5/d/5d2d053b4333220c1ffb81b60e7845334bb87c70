@@ -1,0 +1,18 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕÙßûÿÿÿÿ
+7
+java:S1170	"!Make this final field static too.(ùé¬
+<
+java:S1170"!Make this final field static too.(üÓ²¹ûÿÿÿÿ
+C
+java:S1068"-Remove this unused "genymdhms" private field.(ÅòÃ±
+H
+java:S1068"-Remove this unused "modymdhms" private field.(°ºåØøÿÿÿÿ
+A
+java:S1068	"+Remove this unused "pszqint" private field.(ùé¬
+M
+java:S1068"7Remove this unused "generationTimestamp" private field.(Ğ™¢•
+O
+java:S1068"9Remove this unused "modificationTimestamp" private field.(±ûú
+G
+java:S1068",Remove this unused "recordId" private field.(üÓ²¹ûÿÿÿÿ
