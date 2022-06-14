@@ -1,4 +1,4 @@
-package chap_4.example_01;
+package chapter_4.example_01;
 
 /**
  * This class Generates prime numbers up to a user specified

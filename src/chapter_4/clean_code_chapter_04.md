@@ -8,7 +8,7 @@
 - => Suy nghĩ cách thể biến các dòng code trở nên dễ hiểu và chính xác với những gì ta muốn thể hiện
 - Các dòng comment dần trở nên dứt đoạn với độ chính xác giảm dần theo thời gian tái lập và tạo lên chương trình
 
-![img.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img.png)
+- ![img_11.png](img_11.png)
 
 => Chân lý chỉ có thể tìm thấy tại một nơi duy nhất: Code. Chỉ có code mới nói cho bạn biết thật sự những gì nó làm.
 Nó là nguồn thông tin chính xác duy nhất. Do đó, mặc dù comment đôi khi là cần thiết, nhưng chúng tôi sẽ cố gắng để giảm thiểu nó.
@@ -17,22 +17,22 @@ Nó là nguồn thông tin chính xác duy nhất. Do đó, mặc dù comment đ
   - Thay vì tự nhủ rằng: “Ồ, tốt hơn nên viết comment ở đây!”. Không! Tốt hơn bạn nên viết lại code!
 
 # **Giải thích ý nghĩa ngay trong code**
-- ![img_1.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_1.png)
+- ![img_12.png](img_12.png)
 
 Hay cái này
 
-- ![img_2.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_2.png)
+- ![img_2.png](img_2.png)
 
 Trong nhiều trường hợp, nó chỉ đơn giản là tạo ra một hàm có tên giống với comment mà bạn muốn viết
 
 # **Comment tốt**
 **- COMMENT PHÁP LÝ**
-![img_3.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_3.png)
+![img_3.png](img_3.png)
 
 **- COMMENT CUNG CẤP THÔNG TIN**
 - Ví dụ, hãy xem cách mà comment này giải thích về giá trị trả về của một phương thức trừu tượng:
 
-![img_4.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_4.png)
+![img_4.png](img_4.png)
 
 => Ví dụ, trong trường hợp này, chúng ta có thể dọn dẹp comment trên bằng cách đặt lại tên hàm thành _**responderBeingTested**_.
 
@@ -43,25 +43,25 @@ Trong nhiều trường hợp, nó chỉ đơn giản là tạo ra một hàm c�
 - Đôi khi bạn cần dùng comment để diễn giải ý nghĩa của các đối số khó hiểu hoặc giá trị trả về, để biến chúng thành thứ gì đó có thể hiểu được. 
 - Nhưng khi nó là một phần của thư viện, hoặc thuộc về một phần code mà bạn không có quyền tùy chỉnh, thì một comment giải thích dễ hiểu có thể có ích trong trường hợp này.
 
-![img_6.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_6.png)
+![img_6.png](img_6.png)
 
 **- CÁC CẢNH BÁO VỀ HẬU QUẢ**
 
-![img_7.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_7.png)
+![img_7.png](img_7.png)
 
 - Sử dụng @Ignore (“It takes too long to run”).
 - Nhưng trước khi JUnit 4 xuất hiện, việc đặt một dấu gạch dưới vào trước tên hàm là một quy tắc rất phổ biến. 
 
 **- TODO COMMENTS**
 
-![img_8.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_8.png)
+![img_8.png](img_8.png)
 
 - Những comment dạng TODO là những công việc mà lập trình viên cho rằng nên được thực hiện, nhưng vì lý do nào đó mà họ không thể thực hiện nó ngay lúc này. Nó có thể là một lời nhắc để xóa một hàm không dùng nữa, hoặc yêu cầu người khác xem xét một số vấn đề: đặt lại một cái tên khác tốt hơn, lời nhắc thay đổi code của hàm khi kế hoạch của dự án thay đổi,.. 
 - Ngày nay, hầu hết các IDE đều cung cấp các tính năng đặc biệt để định vị các comment TODO, do đó bạn không cần lo việc bỏ quên/lạc mất nó
 
 **- KHUẾCH ĐẠI**
 
-![img_9.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_9.png)
+![img_9.png](img_9.png)
 
 **- JAVADOCS TRONG PUBLIC APIS**
 - Không có gì hữu ích và tuyệt vời bằng một public API được mô tả tốt. Các javadoc của thư viện chuẩn của Java là một trường hợp điển hình. Sẽ rất khó để viết các chương trình Java mà thiếu chúng.
@@ -73,7 +73,7 @@ Trong nhiều trường hợp, nó chỉ đơn giản là tạo ra một hàm c�
 **- ĐỘC THOẠI**
 - Quăng vào một comment chỉ vì bạn thấy thích, hoặc chỉ vì quá trình xử lý cần đến nó, điều đó được gọi là hack (giải quyết vấn đề không theo cách thường mà dùng thủ thuật, đường tắt,…). Nếu bạn quyết định viết comment, hãy dành thời gian cho nó để đảm bảo đó là comment tốt nhất mà bạn có thể viết.
 
-![img_10.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_10.png)
+![img_10.png](img_10.png)
 
 - Trong trường hợp này các thuộc tính mặc định sẽ được tải.
 -Nhưng, cái gì sẽ tải thuộc tính mặc định? Những thuộc tính mặc định đó đã được tải trước khi gọi loadProperties()? Hay chúng được tải khi loadedProperties.load(propertiesStream) phát sinh Exception? Hay chúng được tải sau khi gọi loadProperties()?  Có phải tác giả chỉ đang cố làm hài lòng chính bản thân anh ta về việc bỏ trống khối catch? Hoặc, kinh khủng hơn – tác giả đã dùng comment như một dấu hiệu, để sau này quay lại và viết các đoạn code tải các thuộc tính mặc định vào khối catch?
@@ -107,25 +107,25 @@ Listing 4-1: waitForClose
 
 Listing 4-3
 
-![img_11.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_11.png)
+![img_11.png](img\img_11.png)
 
 **- CÁC COMMENT NHẬT KÝ**
 - Khi còn chưa có các hệ thống quản lý mã nguồn (source control)Đôi khi mọi người thêm một comment vào đầu module mỗi khi họ chỉnh sửa nó.
 
-![img_12.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_12.png)
+![img_12.png](img\img_12.png)
 
 **- CÁC COMMENT GÂY NHIỄU**
 - Đôi khi bạn gặp các comment không cung cấp thông tin gì ngoài sự phiền phức, chúng lặp lại một vấn đề hiển nhiên và không cung cấp thêm thông tin mới
 
-![img_13.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_13.png)
+![img_13.png](img\img_13.png)
 
 Còn cái này:
 
-![img_14.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_14.png)
+![img_14.png](img\img_14.png)
 
 Và sau đó là sự thừa thãi này:
 
-![img_15.png](D:\Con_cai_nit_ITSOL\Clean_Code\src\com\company\itsol\chap_4\img\img_15.png)
+![img_15.png](img\img_15.png)
 
 Ví dụ khác:
 
